@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body class="font-poppins m-0 p-0">
+    <div class="flex items-center bg-cover bg-center h-screen" style="background-image: url('/images/bg.png');">
+      <div class="text-center flex-col w-96 h-4/6 ml-28 bg-[#374353] bg-opacity-80 rounded-xl">
+        <h3 class="text-2xl font-semibold text-white my-16">Login Admin</h3>
+        <form>
+          <input type="text" id="email" name="email" placeholder="Email" class="border p-2 text-grey-darkest focus:outline-none focus:border-[#031227] rounded-md mx-4 mb-10 w-80">
+          <input type="text" id="password" name="password" placeholder="Password" class="border p-2 text-grey-darkest focus:outline-none focus:border-[#031227] rounded-md mx-4 mb-10 w-80">
+        </form>
+        <div class="flex justify-center">
+          <button class="block bg-[#031227] hover:bg-[#374353] text-white font-semibold p-2 text-grey-darkest focus:outline-none rounded-full mr-4 mb-3 px-10" onclick="window.location.href='/adminHome'">
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
